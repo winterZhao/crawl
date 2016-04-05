@@ -1,4 +1,13 @@
 ###CRAWL
+######使用
+1. 将本项目下周到本地: git clone git@github.com:winterZhao/crawl.git
+2. 安装依赖 npm install;
+3. 执行 npm start;
+4. 本地新建数据库 'crawl';
+5. 浏览器窗口开启 'localhost:3000';
+
+
+######项目内容
 1. 发出HTTP请求获取指定数据;
 
 2. 使用jQuery语法操作网页元素;
@@ -9,7 +18,7 @@
 
 5. 自动执行更新任务；
 
-6. 部署项目到阿里云;
+
 
 #####所需模块
 1. async;

@@ -1,4 +1,6 @@
 ###CRAWL
+    一个简单的爬虫项目
+
 ######使用
 1. 将本项目下周到本地: git clone git@github.com:winterZhao/crawl.git
 2. 安装依赖 npm install;

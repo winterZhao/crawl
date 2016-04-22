@@ -62,7 +62,7 @@ module.exports = app;
 var spawn = require('child_process').spawn;
 var cronJob = require('cron').CronJob;
 var job = new cronJob('*/30 * * * * *',function(){
-  var child = spawn(process.execPath,['../task/main.js']);
+  var child = spawn(process.execPath,['/task/main.js']);
   child.stdout.pipe(process.stdout);
   child.stderr.pipe(process.stderr);
 });

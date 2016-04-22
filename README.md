@@ -5,7 +5,7 @@
 1. 将本项目下周到本地: git clone git@github.com:winterZhao/crawl.git
 2. 安装依赖 npm install;
 3. 执行 npm start;
-4. 本地新建数据库 'crawl';
+4. 本地新建数据库 'crawl';执行新建表的内容,表结构在`database`里;
 5. 浏览器窗口开启 'localhost:3000';
 
 

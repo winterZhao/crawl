@@ -15,7 +15,7 @@
     width:100%;
 }
 .content {
-    position:relative;
+    position:absolute;
     z-index:23;
 }
 .content .title{
@@ -42,7 +42,8 @@
 .content .choice {
     width:80%;
     height:81vw;
-    padding-bottom:7vw;
+    padding-top:2vw;
+    padding-bottom:14vw;
     margin:0 auto;
     display:flex;
     flex-flow:column;

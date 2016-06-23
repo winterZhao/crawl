@@ -42,7 +42,7 @@
 .content .choice {
     width:80%;
     height:81vw;
-    padding:5vw 0 7vw;
+    padding-bottom:7vw;
     margin:0 auto;
     display:flex;
     flex-flow:column;
